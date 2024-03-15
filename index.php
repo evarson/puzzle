@@ -7,4 +7,4 @@ $puzzleData = new PuzzleData();
 $toJsonx = $puzzleData->toJSONx();
 $postUrl = "https://cv.microservices.credy.com/v1";
 $request = new HTTPRequest();
-var_dump($toJsonx);
+$response = $request->sendPostRequest($postUrl, $toJsonx);

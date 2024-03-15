@@ -47,7 +47,7 @@ class PuzzleData
 
     public function getVcsUri()
     {
-        return "https://github.com/sadafe";
+        return "https://github.com/evarson/puzzle";
     }
 
     public function getContent()
